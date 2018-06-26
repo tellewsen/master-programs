@@ -2,7 +2,7 @@
 Various programs I made during my master's in astrophysics.
 
 All of the files work with the output of a modified version of the ISIS code, which itself is a modification of the RAMSES code. 
-The output format is still the same som yt-project was the obvious choice for analysis.
+The output format is still the same so yt-project was the obvious choice for analysis.
 
 This does not work perfectly with the standard version of yt since that changes the creation time parameter of the dark matter particles, making it impossible to distinguish them from the star particles. If for some reason you find yourself wanting to use this you have to make sure that you comment out the part of the yt-project that messes with that parameter.
 
